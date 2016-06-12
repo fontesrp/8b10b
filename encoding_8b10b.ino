@@ -1,13 +1,9 @@
 /* ---------- Variáveis globais necessárias para a codificação ---------- */
-unsigned char xTable[32], yTable[9];
+unsigned int searchTable[256][3];
 char rd;
-
-struct flag3B {
-  char inv, y7Neg, y7Pos;
-};
 /* ---------------------------------------------------------------------- */
 
-unsigned int inX, inY;
+unsigned int inX, inY, input8b;
 
 void setup() {
   
