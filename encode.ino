@@ -899,5 +899,8 @@ unsigned int encode8B10B(unsigned char data) {
 		case 255u:
 			return (rd < 0 ? 689u : 334u);
 			break;
+		default:
+			return 0x3FF; // 10-bit integer: 0011 1111 1111
+			break;
 	}
 }
