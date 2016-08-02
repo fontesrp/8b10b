@@ -10,7 +10,7 @@ void freeArr(void * bin);
 unsigned char * binary(unsigned int dec, char bits);
 
 struct flag3B {
-    char inv, y7Neg, y7Pos;
+	char inv, y7Neg, y7Pos;
 };
 
 unsigned char xTable[32], yTable[9];
