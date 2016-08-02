@@ -904,3 +904,961 @@ unsigned int encode8B10B(unsigned char data) {
 			break;
 	}
 }
+
+unsigned char decode8B10B(unsigned int data) {
+
+	switch (data) {
+		case 628u:
+		case 395u:
+			return 0u;
+			break;
+		case 468u:
+		case 555u:
+			return 1u;
+			break;
+		case 724u:
+		case 299u:
+			return 2u;
+			break;
+		case 795u:
+		case 788u:
+			return 3u;
+			break;
+		case 852u:
+		case 171u:
+			return 4u;
+			break;
+		case 667u:
+		case 660u:
+			return 5u;
+			break;
+		case 411u:
+		case 404u:
+			return 6u;
+			break;
+		case 907u:
+		case 116u:
+			return 7u;
+			break;
+		case 916u:
+		case 107u:
+			return 8u;
+			break;
+		case 603u:
+		case 596u:
+			return 9u;
+			break;
+		case 347u:
+		case 340u:
+			return 10u;
+			break;
+		case 843u:
+		case 836u:
+			return 11u;
+			break;
+		case 219u:
+		case 212u:
+			return 12u;
+			break;
+		case 715u:
+		case 708u:
+			return 13u;
+			break;
+		case 459u:
+		case 452u:
+			return 14u;
+			break;
+		case 372u:
+		case 651u:
+			return 15u;
+			break;
+		case 436u:
+		case 587u:
+			return 16u;
+			break;
+		case 571u:
+		case 564u:
+			return 17u;
+			break;
+		case 315u:
+		case 308u:
+			return 18u;
+			break;
+		case 811u:
+		case 804u:
+			return 19u;
+			break;
+		case 187u:
+		case 180u:
+			return 20u;
+			break;
+		case 683u:
+		case 676u:
+			return 21u;
+			break;
+		case 427u:
+		case 420u:
+			return 22u;
+			break;
+		case 932u:
+		case 91u:
+			return 23u;
+			break;
+		case 820u:
+		case 203u:
+			return 24u;
+			break;
+		case 619u:
+		case 612u:
+			return 25u;
+			break;
+		case 363u:
+		case 356u:
+			return 26u;
+			break;
+		case 868u:
+		case 155u:
+			return 27u;
+			break;
+		case 235u:
+		case 228u:
+			return 28u;
+			break;
+		case 740u:
+		case 283u:
+			return 29u;
+			break;
+		case 484u:
+		case 539u:
+			return 30u;
+			break;
+		case 692u:
+		case 331u:
+			return 31u;
+			break;
+		case 633u:
+		case 393u:
+			return 32u;
+			break;
+		case 473u:
+		case 553u:
+			return 33u;
+			break;
+		case 729u:
+		case 297u:
+			return 34u;
+			break;
+		case 793u:
+			return 35u;
+			break;
+		case 857u:
+		case 169u:
+			return 36u;
+			break;
+		case 665u:
+			return 37u;
+			break;
+		case 409u:
+			return 38u;
+			break;
+		case 905u:
+		case 121u:
+			return 39u;
+			break;
+		case 921u:
+		case 105u:
+			return 40u;
+			break;
+		case 601u:
+			return 41u;
+			break;
+		case 345u:
+			return 42u;
+			break;
+		case 841u:
+			return 43u;
+			break;
+		case 217u:
+			return 44u;
+			break;
+		case 713u:
+			return 45u;
+			break;
+		case 457u:
+			return 46u;
+			break;
+		case 377u:
+		case 649u:
+			return 47u;
+			break;
+		case 441u:
+		case 585u:
+			return 48u;
+			break;
+		case 569u:
+			return 49u;
+			break;
+		case 313u:
+			return 50u;
+			break;
+		case 809u:
+			return 51u;
+			break;
+		case 185u:
+			return 52u;
+			break;
+		case 681u:
+			return 53u;
+			break;
+		case 425u:
+			return 54u;
+			break;
+		case 937u:
+		case 89u:
+			return 55u;
+			break;
+		case 825u:
+		case 201u:
+			return 56u;
+			break;
+		case 617u:
+			return 57u;
+			break;
+		case 361u:
+			return 58u;
+			break;
+		case 873u:
+		case 153u:
+			return 59u;
+			break;
+		case 233u:
+			return 60u;
+			break;
+		case 745u:
+		case 281u:
+			return 61u;
+			break;
+		case 489u:
+		case 537u:
+			return 62u;
+			break;
+		case 697u:
+		case 329u:
+			return 63u;
+			break;
+		case 629u:
+		case 389u:
+			return 64u;
+			break;
+		case 469u:
+		case 549u:
+			return 65u;
+			break;
+		case 725u:
+		case 293u:
+			return 66u;
+			break;
+		case 789u:
+			return 67u;
+			break;
+		case 853u:
+		case 165u:
+			return 68u;
+			break;
+		case 661u:
+			return 69u;
+			break;
+		case 405u:
+			return 70u;
+			break;
+		case 901u:
+		case 117u:
+			return 71u;
+			break;
+		case 917u:
+		case 101u:
+			return 72u;
+			break;
+		case 597u:
+			return 73u;
+			break;
+		case 341u:
+			return 74u;
+			break;
+		case 837u:
+			return 75u;
+			break;
+		case 213u:
+			return 76u;
+			break;
+		case 709u:
+			return 77u;
+			break;
+		case 453u:
+			return 78u;
+			break;
+		case 373u:
+		case 645u:
+			return 79u;
+			break;
+		case 437u:
+		case 581u:
+			return 80u;
+			break;
+		case 565u:
+			return 81u;
+			break;
+		case 309u:
+			return 82u;
+			break;
+		case 805u:
+			return 83u;
+			break;
+		case 181u:
+			return 84u;
+			break;
+		case 677u:
+			return 85u;
+			break;
+		case 421u:
+			return 86u;
+			break;
+		case 933u:
+		case 85u:
+			return 87u;
+			break;
+		case 821u:
+		case 197u:
+			return 88u;
+			break;
+		case 613u:
+			return 89u;
+			break;
+		case 357u:
+			return 90u;
+			break;
+		case 869u:
+		case 149u:
+			return 91u;
+			break;
+		case 229u:
+			return 92u;
+			break;
+		case 741u:
+		case 277u:
+			return 93u;
+			break;
+		case 485u:
+		case 533u:
+			return 94u;
+			break;
+		case 693u:
+		case 325u:
+			return 95u;
+			break;
+		case 627u:
+		case 396u:
+			return 96u;
+			break;
+		case 467u:
+		case 556u:
+			return 97u;
+			break;
+		case 723u:
+		case 300u:
+			return 98u;
+			break;
+		case 796u:
+		case 787u:
+			return 99u;
+			break;
+		case 851u:
+		case 172u:
+			return 100u;
+			break;
+		case 668u:
+		case 659u:
+			return 101u;
+			break;
+		case 412u:
+		case 403u:
+			return 102u;
+			break;
+		case 908u:
+		case 115u:
+			return 103u;
+			break;
+		case 915u:
+		case 108u:
+			return 104u;
+			break;
+		case 604u:
+		case 595u:
+			return 105u;
+			break;
+		case 348u:
+		case 339u:
+			return 106u;
+			break;
+		case 844u:
+		case 835u:
+			return 107u;
+			break;
+		case 220u:
+		case 211u:
+			return 108u;
+			break;
+		case 716u:
+		case 707u:
+			return 109u;
+			break;
+		case 460u:
+		case 451u:
+			return 110u;
+			break;
+		case 371u:
+		case 652u:
+			return 111u;
+			break;
+		case 435u:
+		case 588u:
+			return 112u;
+			break;
+		case 572u:
+		case 563u:
+			return 113u;
+			break;
+		case 316u:
+		case 307u:
+			return 114u;
+			break;
+		case 812u:
+		case 803u:
+			return 115u;
+			break;
+		case 188u:
+		case 179u:
+			return 116u;
+			break;
+		case 684u:
+		case 675u:
+			return 117u;
+			break;
+		case 428u:
+		case 419u:
+			return 118u;
+			break;
+		case 931u:
+		case 92u:
+			return 119u;
+			break;
+		case 819u:
+		case 204u:
+			return 120u;
+			break;
+		case 620u:
+		case 611u:
+			return 121u;
+			break;
+		case 364u:
+		case 355u:
+			return 122u;
+			break;
+		case 867u:
+		case 156u:
+			return 123u;
+			break;
+		case 236u:
+		case 227u:
+			return 124u;
+			break;
+		case 739u:
+		case 284u:
+			return 125u;
+			break;
+		case 483u:
+		case 540u:
+			return 126u;
+			break;
+		case 691u:
+		case 332u:
+			return 127u;
+			break;
+		case 626u:
+		case 397u:
+			return 128u;
+			break;
+		case 466u:
+		case 557u:
+			return 129u;
+			break;
+		case 722u:
+		case 301u:
+			return 130u;
+			break;
+		case 797u:
+		case 786u:
+			return 131u;
+			break;
+		case 850u:
+		case 173u:
+			return 132u;
+			break;
+		case 669u:
+		case 658u:
+			return 133u;
+			break;
+		case 413u:
+		case 402u:
+			return 134u;
+			break;
+		case 909u:
+		case 114u:
+			return 135u;
+			break;
+		case 914u:
+		case 109u:
+			return 136u;
+			break;
+		case 605u:
+		case 594u:
+			return 137u;
+			break;
+		case 349u:
+		case 338u:
+			return 138u;
+			break;
+		case 845u:
+		case 834u:
+			return 139u;
+			break;
+		case 221u:
+		case 210u:
+			return 140u;
+			break;
+		case 717u:
+		case 706u:
+			return 141u;
+			break;
+		case 461u:
+		case 450u:
+			return 142u;
+			break;
+		case 370u:
+		case 653u:
+			return 143u;
+			break;
+		case 434u:
+		case 589u:
+			return 144u;
+			break;
+		case 573u:
+		case 562u:
+			return 145u;
+			break;
+		case 317u:
+		case 306u:
+			return 146u;
+			break;
+		case 813u:
+		case 802u:
+			return 147u;
+			break;
+		case 189u:
+		case 178u:
+			return 148u;
+			break;
+		case 685u:
+		case 674u:
+			return 149u;
+			break;
+		case 429u:
+		case 418u:
+			return 150u;
+			break;
+		case 930u:
+		case 93u:
+			return 151u;
+			break;
+		case 818u:
+		case 205u:
+			return 152u;
+			break;
+		case 621u:
+		case 610u:
+			return 153u;
+			break;
+		case 365u:
+		case 354u:
+			return 154u;
+			break;
+		case 866u:
+		case 157u:
+			return 155u;
+			break;
+		case 237u:
+		case 226u:
+			return 156u;
+			break;
+		case 738u:
+		case 285u:
+			return 157u;
+			break;
+		case 482u:
+		case 541u:
+			return 158u;
+			break;
+		case 690u:
+		case 333u:
+			return 159u;
+			break;
+		case 634u:
+		case 394u:
+			return 160u;
+			break;
+		case 474u:
+		case 554u:
+			return 161u;
+			break;
+		case 730u:
+		case 298u:
+			return 162u;
+			break;
+		case 794u:
+			return 163u;
+			break;
+		case 858u:
+		case 170u:
+			return 164u;
+			break;
+		case 666u:
+			return 165u;
+			break;
+		case 410u:
+			return 166u;
+			break;
+		case 906u:
+		case 122u:
+			return 167u;
+			break;
+		case 922u:
+		case 106u:
+			return 168u;
+			break;
+		case 602u:
+			return 169u;
+			break;
+		case 346u:
+			return 170u;
+			break;
+		case 842u:
+			return 171u;
+			break;
+		case 218u:
+			return 172u;
+			break;
+		case 714u:
+			return 173u;
+			break;
+		case 458u:
+			return 174u;
+			break;
+		case 378u:
+		case 650u:
+			return 175u;
+			break;
+		case 442u:
+		case 586u:
+			return 176u;
+			break;
+		case 570u:
+			return 177u;
+			break;
+		case 314u:
+			return 178u;
+			break;
+		case 810u:
+			return 179u;
+			break;
+		case 186u:
+			return 180u;
+			break;
+		case 682u:
+			return 181u;
+			break;
+		case 426u:
+			return 182u;
+			break;
+		case 938u:
+		case 90u:
+			return 183u;
+			break;
+		case 826u:
+		case 202u:
+			return 184u;
+			break;
+		case 618u:
+			return 185u;
+			break;
+		case 362u:
+			return 186u;
+			break;
+		case 874u:
+		case 154u:
+			return 187u;
+			break;
+		case 234u:
+			return 188u;
+			break;
+		case 746u:
+		case 282u:
+			return 189u;
+			break;
+		case 490u:
+		case 538u:
+			return 190u;
+			break;
+		case 698u:
+		case 330u:
+			return 191u;
+			break;
+		case 630u:
+		case 390u:
+			return 192u;
+			break;
+		case 470u:
+		case 550u:
+			return 193u;
+			break;
+		case 726u:
+		case 294u:
+			return 194u;
+			break;
+		case 790u:
+			return 195u;
+			break;
+		case 854u:
+		case 166u:
+			return 196u;
+			break;
+		case 662u:
+			return 197u;
+			break;
+		case 406u:
+			return 198u;
+			break;
+		case 902u:
+		case 118u:
+			return 199u;
+			break;
+		case 918u:
+		case 102u:
+			return 200u;
+			break;
+		case 598u:
+			return 201u;
+			break;
+		case 342u:
+			return 202u;
+			break;
+		case 838u:
+			return 203u;
+			break;
+		case 214u:
+			return 204u;
+			break;
+		case 710u:
+			return 205u;
+			break;
+		case 454u:
+			return 206u;
+			break;
+		case 374u:
+		case 646u:
+			return 207u;
+			break;
+		case 438u:
+		case 582u:
+			return 208u;
+			break;
+		case 566u:
+			return 209u;
+			break;
+		case 310u:
+			return 210u;
+			break;
+		case 806u:
+			return 211u;
+			break;
+		case 182u:
+			return 212u;
+			break;
+		case 678u:
+			return 213u;
+			break;
+		case 422u:
+			return 214u;
+			break;
+		case 934u:
+		case 86u:
+			return 215u;
+			break;
+		case 822u:
+		case 198u:
+			return 216u;
+			break;
+		case 614u:
+			return 217u;
+			break;
+		case 358u:
+			return 218u;
+			break;
+		case 870u:
+		case 150u:
+			return 219u;
+			break;
+		case 230u:
+			return 220u;
+			break;
+		case 742u:
+		case 278u:
+			return 221u;
+			break;
+		case 486u:
+		case 534u:
+			return 222u;
+			break;
+		case 694u:
+		case 326u:
+			return 223u;
+			break;
+		case 625u:
+		case 398u:
+			return 224u;
+			break;
+		case 465u:
+		case 558u:
+			return 225u;
+			break;
+		case 721u:
+		case 302u:
+			return 226u;
+			break;
+		case 798u:
+		case 785u:
+			return 227u;
+			break;
+		case 849u:
+		case 174u:
+			return 228u;
+			break;
+		case 670u:
+		case 657u:
+			return 229u;
+			break;
+		case 414u:
+		case 401u:
+			return 230u;
+			break;
+		case 910u:
+		case 113u:
+			return 231u;
+			break;
+		case 913u:
+		case 110u:
+			return 232u;
+			break;
+		case 606u:
+		case 593u:
+			return 233u;
+			break;
+		case 350u:
+		case 337u:
+			return 234u;
+			break;
+		case 846u:
+		case 840u:
+			return 235u;
+			break;
+		case 222u:
+		case 209u:
+			return 236u;
+			break;
+		case 718u:
+		case 712u:
+			return 237u;
+			break;
+		case 462u:
+		case 456u:
+			return 238u;
+			break;
+		case 369u:
+		case 654u:
+			return 239u;
+			break;
+		case 433u:
+		case 590u:
+			return 240u;
+			break;
+		case 567u:
+		case 561u:
+			return 241u;
+			break;
+		case 311u:
+		case 305u:
+			return 242u;
+			break;
+		case 814u:
+		case 801u:
+			return 243u;
+			break;
+		case 183u:
+		case 177u:
+			return 244u;
+			break;
+		case 686u:
+		case 673u:
+			return 245u;
+			break;
+		case 430u:
+		case 417u:
+			return 246u;
+			break;
+		case 929u:
+		case 94u:
+			return 247u;
+			break;
+		case 817u:
+		case 206u:
+			return 248u;
+			break;
+		case 622u:
+		case 609u:
+			return 249u;
+			break;
+		case 366u:
+		case 353u:
+			return 250u;
+			break;
+		case 865u:
+		case 158u:
+			return 251u;
+			break;
+		case 238u:
+		case 225u:
+			return 252u;
+			break;
+		case 737u:
+		case 286u:
+			return 253u;
+			break;
+		case 481u:
+		case 542u:
+			return 254u;
+			break;
+		case 689u:
+		case 334u:
+			return 255u;
+			break;
+	}
+}
